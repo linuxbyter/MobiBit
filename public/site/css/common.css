@@ -1,0 +1,3324 @@
+body {
+    background: #FFA320;
+}
+.common_body{
+    background: #F4F4F4;
+    /*background-image: url("/public/site/img/common/bg.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100% 200px;*/
+}
+.banner{
+    width: auto;
+    height: 125px;
+    background-image: url("/public/site/img/index/index_banner.png");
+    background-size: 100% 145px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 10px;
+}
+.banner .index_logo{
+    height: 54px;
+    width: 150px;
+}
+.banner p{
+    font-family: HarmonyOS Sans, HarmonyOS Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F6F6F6;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-top: 15px;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block
+}
+.header{
+    /*background: linear-gradient( 133deg, #004B6E 0%, #0397C9 99%);*/
+    /*border-radius: 0px 0px 0px 0px;*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    padding: 15px;
+}
+.mail_main{
+    margin:30px 15px ;
+}
+.mail_main .mail_card{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.mail_main .mail_card p{
+
+    font-family: Arial, Arial;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.mail_main .mail_card .mail_title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.mail_main  .mail_date{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    background: #FDFDFD;
+    border-radius: 100px 100px 100px 100px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+.mail_main .mail_card .mail_contents{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+.help_header{
+    background-image: url("/public/site/img/user/help_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    height: 200px;
+}
+.help_header .title{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 200px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 28px;
+    color: #35506F;
+    line-height: 22px;
+}
+.help_header .describe{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 200px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+    line-height: 22px;
+}
+.help_card{
+    margin: 20px;
+    padding: 15px 20px;
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+}
+.help_card .help_flex{
+    display: flex;
+    justify-content: left;
+}
+.help_card .help_flex .logo{
+    padding-right: 10px;
+}
+.help_card .help_flex .logo img{
+    width: 60px;height: 60px;
+}
+.help_card .help_flex .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #D6E4FF;
+    line-height: 22px;
+}
+.help_card .help_flex .describe{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D6E4FF;
+    line-height: 22px;
+}
+.vip_main{
+    margin: 15px;
+    position: relative;
+}
+
+.vip_main .vip_card {
+    background-image: url(/public/site/img/vip/card_bg.png);
+    background-size:100% 175px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    height: 155px;
+    padding: 10px;
+}
+.vip_main .vip_card .vip_image{
+    font-family: DingTalk JinBuTi, DingTalk JinBuTi;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 30px;;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+
+}
+.vip_main .vip_card .vip_image img {
+    height: 30px;
+    width: auto;
+}
+
+
+.vip_main .vip_card .vip_contents {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 8px;
+    height: 98px;
+    margin-top: 5px;
+}
+.vip_main .vip_card .vip_contents p{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.layui-layer-page {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, .3);
+}
+.layui-layer-page .content{
+    padding: 20px;
+}
+.layui-layer-page  .content .title{
+
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2A415C;
+    line-height: 23px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 10px;
+
+}
+.layui-layer-page .content .flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+}
+.layui-layer-page .content .flex .logo{
+    height: 100px;
+    width: 100px;
+
+}
+.layui-layer-page .content .flex .logo img{
+    padding: 10px;
+    width: 80px;
+    height: auto;
+}
+.layui-layer-page .content .flex .app_name{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2A415C;
+    line-height: 23px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 8px;
+}
+.layui-layer-page .content .flex .app_description{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #818393;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.common_header{
+    background: #FFFFFF;
+    position: relative;
+    width: 100%;
+    border: none;
+}
+.common_header_order{
+    background: linear-gradient( 140deg, #18A777 0%, #17BD73 100%); padding-bottom: 60px;border-bottom-left-radius: 20%;border-bottom-right-radius: 20%
+}
+.common_header .back{
+    display: block;
+    width: 100%;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 36px;
+}
+.common_header .back .btn{
+    width: 36px;
+    height: 36px;
+
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    top:15px;
+    left: 15px;
+    color: #222222;
+}
+.common_header .back .service{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #2250A8;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3060B9;
+}
+.common_header .back .service img{
+    width: 19px;
+    height: 19px;
+}
+.index_header{
+    position: relative;
+    padding: 15px;
+    padding-bottom: 0px;
+    background: #FFFFFF;
+
+}
+
+.common_main{
+    overflow: hidden;
+    margin: 15px;
+}
+.common_position{
+    position: relative;
+    top: -50px;
+}
+.index_balance_card{
+    padding: 10px;
+    background: #FFE6C2 !important;
+    border-radius: 10px;
+    border: 1px solid #FFE6C2;
+}
+.index_balance_card .go_recharge{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_balance_card .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #DAFFCD !important;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_balance_card .my_balance{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FFFFFF;
+    line-height: 33px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.common_bg{
+    background: #ffffff;
+    border-radius: 16px 16px 0px 0px;=
+padding: 15px;
+}
+.index_header .index_logo{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.index_logo .welcome{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.index_logo .welcome_desc{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A2F3D9;
+    line-height: 24px;
+}
+.balance .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+}
+.balance .value{
+    margin-top: 5px;
+    margin-top: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 13px;
+    color: #0F7A5A;
+}
+.index_main .index_menu {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.index_main .index_menu .index_menu_icon{
+    height: 46px;
+    width: 46px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 23px;
+    margin: auto;
+}
+.index_main .index_menu .index_menu_icon img{
+    height: 46px;
+    width: 46px;
+}
+/*.index_header .index_menu img{*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*}*/
+.index_main .index_menu .menu-title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 12px;
+    color: #51595D;
+    line-height: 16px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    margin-top: 5px;
+}
+.index_banner{
+    height: 190px;
+    background-image: url("/public/site/img/index/banner_bg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 15px 24px;
+    margin-top: 15px;
+}
+.index_banner .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+}
+.index_banner .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: #80A8F4;
+    line-height: 17px;
+    margin-top: 17px;
+    margin-bottom: 6px;
+}
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+.flex_left{
+    display: flex;
+    justify-content: left;
+}
+.wallet_btn{
+    height: 30px;
+    line-height: 30px;
+    width:100px;
+    background: #17A278;
+    border-radius: 8px 8px 8px 8px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.wallet_btn img{ display: inline-block;height: 20px;}
+.nav{
+    width: 88px;
+    height: 34px;
+    border-radius: 100px;
+    background: #F0F0F0;
+    width: 30%;
+}
+.nav_active{
+    background: linear-gradient( 126deg, #F1A12F 0%, #FFC97B 100%);
+}
+.nav .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 34px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.nav_active .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 34px;
+}
+.reward_right_card{
+    background: #FBF3F1;
+    border-radius: 4px 4px 4px 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.reward_right_card .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #373737;
+    line-height: 13px;
+}
+.reward_right_card .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 11px;
+    color: #818393;
+    line-height: 13px;
+}
+.reward_right_card .value{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0F7A5A;
+    line-height: 20px;
+}
+.reward_right_card .invite_btn{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #396ED1;
+    border-radius: 100px 100px 100px 100px;
+    cursor: pointer;
+}
+.reward_card .copy_link_btn{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #396AC7;
+}
+.reward_card .qr_code_btn{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #23AF66;
+    border-bottom: 1px solid #80D8AA;
+}
+.reward_card .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    line-height: 22px;
+    display: flex;
+    justify-content:space-between ;
+}
+.reward_card .content{
+    margin-top: 25px;
+    width: 100%;
+}
+.reward_card .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #373737;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+.reward_card .desc{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+
+.position{
+    position: relative;
+}
+.unit{
+    position: absolute;top: 3px;
+    left: -12px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #C2C1C1;
+
+}
+.days{
+    position: relative;top: -6px;
+    right: 0px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #C2C1C1;
+
+}
+.index_main {
+    position: relative;
+    padding: 15px;
+}
+.product_type_card{
+    background: #FFFFFf;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.product_type_list{
+    padding: 15px;
+}
+.product_type_list .product_type_nav{
+    text-align: center;
+}
+.product_type_list .product_type_nav img{
+    width: 22px;height: 22px;
+}
+.product_type_list .product_type_nav .title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A6A6A6;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    margin-top: 10px;
+}
+.product_type_content{
+    padding: 10px 15px ;
+    height: 60px;
+    background: #FFF8E8;
+    border-radius: 0 0 8px 8px;
+}
+.product_type_content .type_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BA8E27;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.product_type_content .type_desc{
+    margin-top: 5px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #BA8E27;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    border-radius: 8px;
+}
+.product_type_list .product_type_nav_active .title{
+    color: #FFA320;
+    font-weight: 700;
+}
+.product_nav_list{
+    height: 38px;
+    background: #FFE6C2;
+    border-radius: 19px;
+    margin-bottom: 20px;
+
+}
+.product_nav_list .product_nav_item{
+    /*margin: 3px 0;*/
+    height: 32px;
+    line-height: 32px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 16px;
+    color: #697276;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.product_nav_list .product_nav_item_active{
+    height: 32px;
+    background: #FFA320;
+    color: #FFFFFF;
+    border-radius: 16px;
+}
+.title2{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.more{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFE9CA;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_main .product_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 18px;
+    color: #242424;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.index_main .product_type{
+    margin-bottom: 20px;
+}
+.index_main .product_type_item{
+    width: 30%;
+    background: #2452AC;
+    border-radius: 100px;
+    border: 1px solid #3565C2;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 8px;
+    text-align: center;
+}
+.index_main .product_type_item_active{
+    width: 30%;
+    background: #6298FF;
+    border-radius: 100px;
+    border: 1px solid #93B8FF;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 8px;
+    text-align: center;
+}
+.index_main .invite{
+    padding: 10px;
+}
+.index_main .invite .invite_banner{
+    position:relative;
+    top: -30px;
+    width: 100%;
+}
+.index_main .invite .invite_banner img{
+    width: 100%;
+
+}
+.index_main .prompt{
+    position:relative;
+    top: -20px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_main .commission{
+    margin-bottom: 20px;
+}
+.index_main .commission .flex{
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+}
+.index_main .commission .flex .left img{
+    height: 35px; width: 35px;
+}
+.index_main .commission .flex .right{
+    padding-left: 10px;
+}
+.index_main .commission .flex .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0E0E0E;
+    line-height: 21px;
+    text-align: left;
+}
+.index_main .commission .flex .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #818393;
+    line-height: 17px;
+    text-align: left;
+}
+.index_main .link_btn{
+    margin: 20px 0;
+}
+.index_main .link{
+    padding: 0 10px;
+}
+.index_main .link p{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B9BDD9;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.index_main .link .my_link{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+
+}
+.index_main .reward{
+    padding: 10px;
+}
+
+.index_main .reward .title{
+    border-left: 4px #EBD8A3 solid;
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2A415C;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.index_main .flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    border-radius: 15px 15px 15px 15px;
+}
+.index_main .balance{
+    padding: 20px;
+    /*background: #FFFFFf;*/
+}
+
+.index_main .reward .flex{
+    background: #FBFBFF;
+}
+.index_main .reward .flex .left{
+    background: #FBFBFF;
+}
+.index_main .reward .flex .left img{
+    width: 88px;
+    height: 88px;
+}
+.index_main .reward .flex .right{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.index_main .reward .flex .right .title{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C;
+    line-height: 18px;
+}
+.copyright{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ABB4BC;
+    line-height: 16px;
+    text-align: center;
+    margin: 15px 0;
+}
+.none_data{
+    text-align: center;margin: auto;padding: 30px 20px;padding-bottom: 60px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+}
+.none_image{
+    width: 107px;height: auto;
+}
+.none_text{
+    margin-top: 15px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ADACAC;
+    line-height: 21px;
+    text-align: center;
+}
+.card{
+    background: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 20px;
+}
+#open_dialog{
+    height: 397px;
+    width: 100%;
+    /*background: linear-gradient( 180deg, #DDFFEA 0%, #FFFFFF 100%);*/
+    background-image: url("/public/site/img/index/open_dialog_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 397px;
+}
+#open_dialog .follow_btn{
+    width: 270px;
+    height: 40px;
+    background: linear-gradient( 126deg, #F1A12F 0%, #FFC97B 100%);
+    box-shadow: 0px 4px 10px 0px rgba(252,179,75,0.2);
+    font-family: Arial, Arial;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    font-style: normal;
+    display: block;
+
+    margin: auto;
+    margin-top: 25px;
+}
+#open_dialog .telegram{
+    width: 100px;
+    height: 30px;
+    background: linear-gradient( 180deg, #6FBD53 0%, #67AD4F 100%);
+    border-radius: 100px 100px 25px 100px;
+    position: absolute;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 30px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    top: 5px;
+    left: 80px;
+}
+#open_dialog .channel_title {
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    line-height: 28px;
+    text-align: center;
+}
+#open_dialog .channel_text {
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.product_details_dialog{
+    height: 484px;
+    width: 100%;
+
+    background: #FFFFFF;
+    z-index: 999999;
+    display: none;
+    border-radius: 15px 15px 0px 0px;
+}
+.product_details_dialog_content{
+    width: auto;
+    padding: 0px 20px;
+    padding-top: 10px;
+}
+.dialog_close_icon{
+    display: flex;
+    justify-content: right;
+}
+.product_image{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E9E9E9
+}
+.product_image img{
+    border-radius: 50%;
+}
+.product_image .product_name{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222222;
+    line-height: 21px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.product_details_item{
+    /*margin-bottom: 10px;*/
+    padding: 10px 0;
+}
+.product_details_item .value{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 500;
+    font-size: 18px;
+    color: #51595D;
+    line-height: 22px;
+    text-align: right;
+    font-style: normal;
+    text-transform: none;
+}
+.product_details_item .value .price{
+    color: #FFA320;
+}
+.product_details_item .label{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.product_details_buy_btn{
+    background: linear-gradient( 126deg, #F1A12F 0%, #FFC97B 100%);
+    box-shadow: 0px 4px 16px 0px rgba(255,163,32,0.15);
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+.product_header{
+    position: relative;
+    background-image: url("/public/site/img/product/head_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    height: 150px;
+}
+.product_header_title{
+    padding-top: 50px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 28px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.product_header .header_content{
+    display: flex;
+    justify-content: space-between;
+}
+.product_header .header_content .service img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.product_header .index_logo{
+    width: 200px;
+    height: auto;
+}
+.product_header .index_logo img{
+    width: 100%;
+    height: auto;
+}
+.product_main{
+    position:relative;
+    top: -20px;
+    display: flex;
+    justify-content: left;
+}
+.product_main .left_content{
+    width: 120px;
+}
+.product_main .left_content .card{
+    width: 90px;
+    padding: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+    margin-bottom: 8px;
+    border-radius: 0px 10px 10px 0px;
+    background: #CFD0D9;
+}
+.product_main .left_content .card img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 7px;
+}
+.product_main .left_content .card_active{
+    background: linear-gradient( 135deg, #004B6E 0%, #0295C7 100%);
+    border-radius: 0px 10px 10px 0px;
+    color: #FFFFFF;
+}
+.product_main .left_content .card_order{
+    display: block;
+    margin-top: 60px;
+    background: #383838;
+    border-radius: 0px 10px 10px 0px;
+    color: #FFFFFF;
+}
+
+.product_main .right_content {
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 60px;
+}
+
+.product_card{
+    height: auto;
+    background: #FFE6C2;
+    border-radius: 8px;
+    padding: 0;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+.product_card .buy{
+    width: 91px;
+    height: 32px;
+    background: #67AD4F;
+    line-height: 32px;
+    border-radius: 16px;
+    text-align: center;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.product_card .level{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 35px;
+    height: 20px;
+    background: linear-gradient( 270deg, #FFD685 0%, #F5E08F 100%);
+    border-radius: 8px 0px 8px 0px;
+    text-align: center;
+    z-index: 999;
+}
+.product_card .level img{
+    width: 13px;
+}
+.product_card .product_content{
+    text-align: center;
+}
+.product_card .product_content .product_image{
+    height: 170px;
+    border-radius: 8px;
+    background-size: 170px 100%;
+    background-repeat: no-repeat;
+}
+
+.product_card .product_content .product_title .product_info{
+
+    padding: 15px;
+}
+.product_card .product_content .product_title .product_name{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 16px;
+    color: #181818;
+    line-height: 24px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.product_name .product_vip_btn{
+    width: 70px;
+    height: 26px;
+    background: #F5ECD8;
+    font-family: DingTalk JinBuTi, DingTalk JinBuTi;
+    font-weight: 400;
+    font-size: 14px;
+    color: #DB9800;
+    line-height: 26px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    border-radius: 13px;
+}
+.product_name .product_day_btn{
+    width: 70px;
+    height: 26px;
+    background: #F5ECD8;
+    font-family: DingTalk JinBuTi, DingTalk JinBuTi;
+    font-weight: 400;
+    font-size: 14px;
+    color: #499130;
+    line-height: 26px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    border-radius: 13px;
+}
+.product_card .product_content  .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+.product_card .product_content  .value{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 18px;
+    color: #BA8E27;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.product_card .product_content  .price{
+    color: #BA8E27;
+    font-size: 18px;
+    line-height: 20px;
+}
+.product_card .product_item{
+    text-align: center;
+    margin-top: 5px;
+}
+.product_card .product_item .label{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    line-height: 14px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.product_card .product_item .value{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0F7A5A;
+    line-height: 14px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.product_details_main{
+    margin: 15px;
+    position: relative;
+    top: -90px;
+}
+.product_details_card{
+    position: relative;
+    display: block;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.product_details_card .lianjie{
+    width: 4px;height: 40px;
+}
+.product_details_card .lianjie_left{
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.product_details_card .lianjie_right{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+}
+.common_card .lianjie{
+    width: 4px;height: 40px;
+}
+.common_card .lianjie_left{
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.common_card .lianjie_right{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+}
+.product_details_card .product_details_item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #F3F3F3;
+
+}
+.product_details_card .product_details_order{
+    border-bottom: 1px solid #EAEAEA;
+}
+.product_details_card .buy_btn{
+    background: linear-gradient( 102deg, #27C85D 0%, #24A196 100%);
+    box-shadow: 0px 4px 10px 0px rgba(36,165,144,0.3);
+    border-radius: 100px 100px 100px 100px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.layui-slider {
+    height: 5px;
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+.layui-slider-wrap-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#FFFFFF;
+    border: none;
+}
+.product_details_card .product_details_name{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #666666;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.product_details_card .product_details_item .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #888888;
+    line-height: 16px;
+    margin-bottom: 6px;
+}
+.product_details_card .product_details_item .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #666666;
+    line-height: 21px;
+    text-align: left;
+}
+.product_details_card .product_details_item .price {
+    font-family: Arial, Arial;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FF7D21;
+    line-height: 31px;
+}
+/*.product_details_card .product_details_item .unit {*/
+/*    position: relative;*/
+/*    top: -10px;*/
+/*    font-family: Arial, Arial;*/
+/*    font-weight: 700;*/
+/*    font-size: 14px;*/
+/*    color: #CFD0D9;*/
+/*    line-height: 16px;*/
+/*}*/
+.footer_menu{
+    position: fixed;
+    z-index:9999;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /*height: 80px;*/
+    background:#ffffff;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.251);
+    /*box-shadow: 0px 4px 10px 0px rgba(42,65,92,0.3);*/
+    /*border: 1px solid #ACC8FD;*/
+    /*border-radius: 120px 120px 0  0;*/
+    padding: 0;
+    margin: 0;
+}
+
+.footer_menu .content{
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    color: #A1BFF6;
+}
+.footer_menu .content a{
+    color: #999999 !important;
+    font-weight: 400;
+}
+.footer_menu .content .item{
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+}
+.footer_menu .content .item img{
+    width: 36px;
+    height: auto;
+}
+.footer_menu .content .item p{
+    margin-top: 4px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    height: 20px;
+    line-height: 20px;
+}
+.footer_menu .content  .active p{
+    text-align: center;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFA320;
+}
+
+#service{
+    /*display: none;*/
+    position: fixed;
+    z-index:9999;
+    bottom: 50%;
+    right: 0px;
+    width: 46px;
+    height: 136px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.15);
+    border-radius: 100px 100px 100px 100px;
+    text-align: center;
+}
+
+
+.login_body{
+    height: 100%;
+    background: #FFC97B;
+    background-size :100%;
+    background-image: url("/public/site/img/login/bg.png");
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+}
+.login_body .login_bg{
+    padding-bottom: 300px;
+    background: none;
+}
+.login_body .main{
+    /*background: #3364C1;*/
+}
+
+.login_body .logo {
+    margin-top: 40px;
+    margin-left: 15px;
+    /*height: 120px;*/
+    width: 100%;
+    text-align: left;
+    /*background: #3364C1;*/
+
+}
+.login_body .logo img{
+    width: 260px;
+    height: 85px;
+}
+.login_body .logo .footer_order{
+    background: #3364C1;
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid #ACC8FD;
+    border-radius: 160%;
+    filter: blur(1px);
+
+}
+.login_body .main .login_form{
+    background: none;
+    background-size :100%;
+    background-image: url("/public/site/img/login/form_bg.png");
+    background-repeat: no-repeat;
+
+    margin: 0px;
+    margin-top: 60px;
+    margin-right: 35px;
+
+}
+.login_body .main .login_form .form_tab{
+    display: flex;
+    justify-content: right;
+    background: none;
+    border-radius: 30px 30px 0px 0px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+
+.login_body .main .login_form .form_tab .left{
+    width: 50%;
+    height: 60px;
+    background:none;
+    color: #666666;
+    border-radius: 30px 30px 0px 0px;
+}
+.login_body .main .login_form .form_tab .right{
+    width: 50%;
+    height: 60px;
+    background: none;
+    color: #FFFFFF!important;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.login_body .main .login_form .form_container{
+    background: none;
+    border-radius: 0px 30px 30px 30px;
+    padding: 15px;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+.login_body .main .login_form .form_container .label{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+.login_body .main .login_form .form_container .layui-form-item{
+    border-radius: 22px;
+    background: #F3F3F3;
+    margin-bottom: 15px;
+    height: 44px;
+
+}
+.login_body .main .login_form .form_container .layui-form-label{
+    width: 100px;
+    margin-top: 7px;
+    border: none;
+    background: none;
+    border-right: 1px solid #CFD0D9;
+    height: 30px;
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #666666;
+
+}
+.login_body .main .login_form .form_container .layui-input-block{
+    margin-left: 100px;
+    height: 44px;
+    line-height: 44px;
+}
+.login_body .main .login_form .form_container .layui-input-wrap{
+    border-radius: 100px;
+}
+.login_body .main .login_form .form_container .layui-input-wrap .layui-input,.layui-input-affix {
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2A415C !important;
+}
+.login_body .main .login_form .form_container .layui-input-wrap .layui-input,.layui-input-affix {
+
+    height: 44px !important;
+    line-height: 44px !important;
+    border: none;
+    background: none;
+}
+.login_btn{
+    margin-bottom: 20px;
+    background: linear-gradient( 126deg, #F1A12F 0%, #FFC97B 100%);
+    border-radius: 100px 100px 100px 100px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-style: normal;
+    text-transform: none;
+}
+.border_noe{
+    border: none;
+}
+
+.user_header{
+    padding: 15px;
+    padding-top: 20px;
+}
+.user-header .user_info{
+    padding-top: 0px;
+    z-index: 9999999;
+}
+.user_info .balance{
+    text-align: center;
+    margin-top: 15px;
+    z-index: 9999999;
+}
+.user_info .balance .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #96BAF3;
+    line-height: 15px;
+}
+.user_info .balance .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFE11C;
+    margin-bottom: 10px;
+}
+.user_contents{
+    display: flex;
+    justify-content: space-between;
+    border: 1px #000000;
+    z-index: 9999999;
+}
+.user_contents .info {
+    display: flex;
+    justify-content: left;
+    color: #FFFFFF;
+}
+.user_contents .info img {
+    width: 50px;
+    height: 50px;
+}
+.user_contents .info a {
+    font-weight:700 ;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.user_contents .username {
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.user_main{
+    background-image: url("/public/site/img/user/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    position: relative;
+    top: -15px;
+    z-index: 111;
+}
+.user_main .index_menu {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: auto;
+}
+.user_main .index_menu img{
+    height: 40px;
+    width: 40px;
+}
+.user_main .index_menu .menu-title{
+    margin-top: 6px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+    text-align: center;
+}
+.user_main .nav{
+    background-image: url("/public/site/img/common/nav.png");
+    background-size:  100% 110px;
+    background-repeat: no-repeat;
+    height: 110px;
+    padding-top: 5px;
+}
+.user_main .nav_active{
+    background-image: url("/public/site/img/common/active_nav.png");
+    background-size:  100% 110px;
+    background-repeat: no-repeat;
+    height: 110px;
+    padding-top: 5px;
+}
+.user_main .nav .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #97BBFF;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+.user_main .nav .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFE11C;
+    line-height: 16px;
+}
+
+
+.user_main .balance{
+    padding: 20px;
+}
+
+
+.user_main .balance .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 15px;
+
+}
+.user_main .balance .flex .item{
+    width: 50%;
+}
+.user_main .balance .flex .item .value{
+    color: #35506F;
+}
+
+.user_main .menu{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+.user_main .menu .menu_card{
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    height: 40px;
+}
+.user_main .menu .menu_card .item{
+    padding-left: 5px;
+}
+.user_main .menu .menu_card .item .value{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AF8923;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.user_main .menu .menu_card .item .label{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #004B6E;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+.user_main .menu .menu_card img{
+    width: 24px;
+    height: 24px;
+}
+
+.user_main .user_list {
+    margin-top: 15px;
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #3769C7;
+}
+.user_main .user_card{
+    margin: 0 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #3669C8;
+}
+.user_main .user_card .item{
+    display: flex;
+    justify-content: space-between;
+
+}
+.user_main .user_card .item .title{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #97BBFF;
+    line-height: 18px;
+}
+.user_main .user_card .item img{
+    width: 32px;
+    height: 32px;
+}
+.user_main .user_card .item .right_icon{
+    color: #CCCCCC;
+    line-height: 32px;
+    font-weight: bold;
+}
+.logout{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #97BBFF;
+    line-height: 21px;
+}
+.logout img{
+    height: 18px;
+    width: 18px;
+}
+.team_header{
+    background-image: url("/public/site/img/team/header_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 160px;
+}
+.team_header .back{
+    display: block;
+    width: 100%;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #D6E4FF;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 36px;
+}
+.team_header .back .btn{
+    width: 36px;
+    height: 36px;
+    background: #2250A8;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #3060B9;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+
+.team_header .label{
+    margin-top: 20px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BAD5FF;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.team_header .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEDD4D;
+    line-height: 28px;
+    text-align: center;
+}
+.team_main {
+    padding: 0 15px;
+    margin-bottom: 200px;
+}
+.team_card{
+    margin-top: 25px;
+    background: #ffffff;
+    height: 166px;
+    padding: 0 17px;
+    border-radius: 16px;
+}
+.team_card .title{
+    text-align: center;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 19px;
+    color: #0F7A5A;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.team_card .left {
+    width: 100px !important;
+    height: 100px !important;
+    background: #3A6BC7;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #497CDE;
+    text-align: center;
+
+}
+.team_card .left .level_icon{
+    margin-top: 5px;
+    width: 44px;
+    height: 44px;
+}
+
+.team_card .left .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 11px;
+    color: #9EBDF9;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.team_card .left .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEDD4D;
+    line-height: 28px;
+    text-align: center;
+    width: 100px;
+}
+.team_card .right{
+    width: 100%;
+    /*padding-left: 10px;*/
+}
+.team_card .right .item{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.team_card .right .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #0F7A5A;
+    line-height: 22px;
+}
+.team_card .right .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #EBF2FF;
+    line-height: 18px;
+    padding-left: 12px;
+}
+
+.common_card{
+    background: rgba(255,255,255,1);
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.common_card .common_card_content{
+    background: #FFFFFF;
+    border-radius: 16px 16px 16px 16px;
+}
+
+.common_explain{
+    border-left: 4px solid #EBD8A3;padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3D3D3D;
+    line-height: 21px;
+}
+.common_content{
+    margin-top: 15px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 22px;
+}
+.common_content p{
+    margin-bottom: 15px;
+}
+
+.dialog{
+    /*background: rgba(255,255,255,0.2);*/
+    /*filter:alpha(opacity=.1);*/
+    /*border-radius: 16px;*/
+    /*border: 2px solid rgba(255,255,255,0.5);*/
+    background: #ffffff;
+    z-index: 100;
+    top: 10px;
+    border-radius: 16px;
+}
+
+.dialog .dialog_contents{
+    padding: 16px;
+    background-color: #FFFFFf;
+    border-radius: 16px 16px 16px 16px;
+    z-index: 300;
+
+    /*margin: 15px;*/
+}
+.dialog .dialog_contents .dialog_image{
+    margin: auto;
+    text-align: center;
+}
+.dialog .dialog_contents .dialog_image img{
+    height: 110px;
+    width: 110px;
+}
+.dialog .logo{
+
+    width: auto;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+}
+.dialog .logo img{
+    width: auto; height: 60px;
+    /*border-radius: 50%;*/
+}
+.dialog .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.dialog .item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+.dialog .item .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A415C;
+    line-height: 16px;
+}
+.dialog .item .value{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #666666;
+    line-height: 21px;
+}
+.dialog .explain{
+    /*padding-left: 5px;*/
+    /*border-left: 3px solid #FC9137;*/
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0F7A5A;
+    margin-bottom: 20px;
+}
+
+.dialog .text{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #424242;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.dialog .btn_group{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.dialog_title{
+    padding: 15px;
+    font-family: Arial, Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5C9D45;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.dialog_title .icon{width: 24px;height: 24px}
+.dialog .cancel{
+    border-radius: 100px 100px 100px 100px;
+
+    background: #CECECE;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 45%;
+}
+.dialog .confirm{
+    width: 45%;
+    border-radius: 100px 100px 100px 100px;
+    background: linear-gradient( 126deg, #F1A12F 0%, #FFC97B 100%);
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F0F5FF;
+}
+
+.layui-layer-setwin {
+    position: absolute;
+    right: unset;
+    top: unset;
+    bottom: -50px;
+    left: 50%;
+}
+
+.layui-layer-page{ background: none !important;}
+
+.club_header{
+    position: relative;
+    background-image: url("/public/site/img/invite/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    height: 250px;
+}
+.club_header_title{
+    padding-top: 50px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 28px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.club_btn{
+    width: 155px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    border: 1px solid #6DAF56;
+    padding: 5px;
+    border-radius: 100px;
+}
+.club_btn img{
+    width: 40px;
+    height: 40px;
+}
+.club_btn_right{
+    padding-left: 10px;
+}
+.club_btn_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #071203;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.club_btn_desc{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #5B5B5B;
+    line-height: 17px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+#club_dialog{
+    height: 400px;
+    width: 100%;
+    background-image: url("/public/site/img/index/open_dialog_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    border-radius: 15px 15px 0px 0px;
+}
+#club_dialog .know_btn{
+    width: 270px;
+    height: 40px;
+    background: linear-gradient( 90deg, #6FBD53 0%, #67AD4F 100%);
+    box-shadow: 0px 4px 10px 0px rgba(36,165,144,0.3);
+    font-family: Arial, Arial;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    font-style: normal;
+    display: block;
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+#club_dialog .club_title {
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    line-height: 28px;
+    text-align: center;
+}
+#club_dialog .club_text {
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.club_card{
+    background: #FFFFFF;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.club_card .publish_left{
+    width: 124px;
+    height: 170px;
+}
+
+.club_card .publish_left .layui-carousel img{
+    width: 124px;
+    height: 170px;
+    border-radius: 4px;
+}
+.publish_right{
+    padding: 5px 10px;
+}
+.club_user{width: 100%}
+.club_info{ padding-left: 5px}
+.club_content{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin: 10px 0;
+}
+.club_date{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+    line-height: 14px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    text-transform: none;
+}
+.club_avatar{
+    width: 40px;
+    height: 40px;
+}
+.club_name{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.club_account{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+    line-height: 17px;
+    text-align: left;
+    font-style: normal;
+}
+.club_reward{
+    width: 60px;
+    height: 17px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BA8E27;
+    line-height: 16px;
+    text-align: right;
+    font-style: normal;
+    text-transform: none
+}
+.club_reward .club_reward_icon{
+    width: 14px;
+    height: 14px;
+}
+
+.user_header{
+    height:100%;
+    background: linear-gradient( 180deg, #FFF7EB 0%, rgba(255,255,255,0) 100%);
+}
+.info_card{
+    background:none;
+    padding: 0px;
+
+}
+.info_card .username{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    line-height: 1;
+}
+.info_card .username .nickname{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.info_card .username .account{
+    margin-top: 12px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.info_card .avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.balance_card{
+    background: rgba(255,255,255,0.95);
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #FFFFFF;
+    padding:20px 15px;
+    margin-top: 20px;
+}
+.balance_card .balance_left .value{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0F7A5A;
+    line-height: 1;
+    margin-bottom: 6px;
+}
+.balance_card .balance_left .label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1;
+}
+.balance_card .balance_right .go_btn{
+    height: 32px;
+    background: linear-gradient( 101deg, #47CD6E 0%, #6FD022 53%, #15C8B3 100%);
+    border-radius: 100px;
+    line-height: 32px;
+    text-align: center;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding:0 15px;
+}
+.user_main{
+    padding: 15px;
+    position:unset;
+    top: unset;
+    z-index: 111;
+    background: linear-gradient( 180deg, #F7FDF9 0%, rgba(248,255,248,0) 100%);
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 80px;
+}
+.item_card {
+    background: linear-gradient( 180deg, #E1FFF1 0%, #FFFFFF 100%);
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid #FFFFFF;
+    padding: 15px;
+    margin: 15px;
+}
+.item_card .item {
+    width: 33%;
+}
+.item_card .item .value {
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #0F7A5A;
+    line-height: 16px;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.item_card .item .label {
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #888888;
+    line-height: 18px;
+}
+.item_card .user_list {
+    margin-top: 15px;
+    background: #2B5CB9;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #3769C7;
+}
+.card_title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2C2C2C;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.user_main .user_list {
+    margin: 0;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.01);
+    border-radius: 16px 16px 16px 16px;
+    border: none;
+}
+.user_main .user_card{
+    margin: 0 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+.user_main .user_card .item{
+    display: flex;
+    justify-content: space-between;
+
+}
+.user_main .user_card .item .title{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color:#333333;
+    line-height: 18px;
+}
+.user_main .user_card .item img{
+    width: 32px;
+    height: 32px;
+}
+.user_main .user_card .item .right_icon{
+    color: #D6D6D6;
+    line-height: 32px;
+    font-weight: bold;
+}
+.logout{
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.01);
+    border-radius: 10px 10px 10px 10px;
+}
+.logout a{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FF6F47;
+    line-height: 30px;
+}
+.logout img{
+    height: 24px;
+    width: 24px;
+}
+.layui-progress-text {
+    position: relative;
+    top: 10px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #ffffff;
+    width: 200px;
+    display: block;
+    font-weight: 700;
+    display: none;
+}
+.balance_top{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.balance_value{
+    font-family: HarmonyOS Sans, HarmonyOS Sans;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1B1B1B;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.balance_label{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #617653;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    margin-top: 5px;
+}
+.user_vip_card{
+
+    border-radius: 8px 8px 8px 8px;
+    /*border: 1px solid #FFFFFF;*/
+    padding: 15px;
+    height: 70px;
+    background: #51595D;
+}
+.user_vip_title{
+    font-family: Arial, Arial;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFE9B5;
+    line-height: 18px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.user_my_vip{
+    width: 30px;
+    height: 16px;
+    background: linear-gradient( 270deg, #83848B 0%, #C2C3C3 100%);
+    border: 1px solid #BEBEBE;
+    font-family: DingTalk JinBuTi, DingTalk JinBuTi;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 14px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    border-radius: 8px;
+    padding: 0 5px;
+    margin-left: 10px;
+}
+.next_vip_text{
+    margin-top: 20px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.user_card{
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.user_nav{
+    padding-bottom: 15px;
+}
+.user_nav .user_nav_item{
+    text-align: center;
+}
+.user_nav .user_nav_item img{
+    width: 30px;height: 30px
+}
+.user_nav .user_nav_item .nav_image{
+    width: 30px;height: 30px
+}
+.user_nav .user_nav_item p{
+    margin-top: 5px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #666666;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    text-align: center;
+}
+.user_card .nav_title {
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    padding: 10px;
+}
+#user_dialog{
+    width: 260px;
+    height: 100%;
+    display: none;
+    background: #ffffff;
+}
+.setting_nav_item{
+    width: 100%;
+    padding: 15px 0;
+    border-bottom:  1px solid #EDEDED;;
+
+}
+.setting_nav_item img{
+    width: 22px;
+    height: 22px;
+}
+.setting_nav_item_right{
+    width: 100%;
+}
+.setting_nav_item_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-left: 10px;
+}
+.setting_nav_item_right .layui-icon{
+    color: #B3B3B3;
+}
+.help_nav_card{
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.help_nav_card img {
+    width: 50px;
+    height: 50px;
+}
+.help_nav_card p {
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4B4B4B;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    margin-top: 5px;
+}
+
+.help_title {
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+.help_card{
+    margin: 20px;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+}
+
+.help_card  .logo{
+    padding-right: 10px;
+}
+.help_card  .logo img{
+    width: 60px;height: 60px;
+}
+.help_card .title{
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.help_card  .describe{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-top: 10px;
+}
+.invite_card_btn{
+    display: inline-block;
+    width: 90px;
+    height: 28px;
+    background: linear-gradient( 126deg, #F1A12F 0%, #FFC97B 100%);
+    border-radius: 100px 100px 100px 100px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.invite_card_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 18px;
+    color: #51595D;
+    line-height: 25px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.invite_card_text{
+    width: 192px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #51595D;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin: 10px 0;
+}
+.invite_box_card{
+    height: 112px;
+    background-image: url("/public/site/img/invite/box_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 142px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+.invite_team_card{
+    height: 112px;
+    background-image: url("/public/site/img/invite/team_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 142px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+.invite_tasks_card{
+    height: 112px;
+    background-image: url("/public/site/img/invite/tasks_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 142px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+.invite_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3D3D3D;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin: 10px 0;
+}
+.invite_text{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+.invite_desc{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3D3D3D;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.team_body{
+    background-image: url("/public/site/img/team/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.team_commission_card{
+    background-image: url("/public/site/img/team/commission_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 97px;
+    height: 77px;
+    padding: 10px;
+    padding-left: 120px;
+    margin-bottom: 15px;
+}
+.team_commission_card .desc{
+    margin-top: 10px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    line-height: 14px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.team_commission_card .value{
+    margin-top: 10px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 24px;
+    color: #292929;
+    line-height: 34px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.team_copy_card{
+    background-image: url("/public/site/img/team/copy_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 97px;
+    height: 77px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.team_copy_desc{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3D3D3D;
+    line-height: 14px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.team_copy_link{
+
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #417B2E;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 220px
+}
+.team_copy_btn{
+    width: 45px;
+    height: 20px;
+    background: linear-gradient( 270deg, #67AD4F 0%, #70C155 100%);
+    border-radius: 100px 100px 100px 100px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+
+.team_label{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    line-height: 14px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.team_value{
+    margin-top: 10px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 16px;
+    color: #292929;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.team_total_card{
+    background-image: url("/public/site/img/team/total_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 76px;
+
+}
+.team_member_card{
+    background: #FFFFFf;
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+.team_lv{
+    text-align: center;
+    width: auto;
+
+}
+.team_lv img{
+    height: 58px;
+    width: 48px;
+}
+.member_bg{
+    background-image: url("/public/site/img/team/member_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 275px;
+    border-radius: 8px;
+    padding-left: 0;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    height: 280px;
+}
+.team_member_item{
+    margin:10px 0;
+}
+
+.team_member_label{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #3D3D3D;
+    line-height: 14px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.team_member_value{
+    margin-top: 5px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 700;
+    font-size: 16px;
+    color: #292929;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.member_detail_btn{
+    width: 70px;
+    height: 26px;
+    background: linear-gradient( 126deg, #F1A12F 0%, #FFC97B 100%);
+    border-radius: 100px 100px 100px 100px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 26px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    margin: auto;
+    display: block;
+
+}
+
+.member_body{
+    background: #F4F4F4;
+    background-image: url("/public/site/img/team/member_details_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.member_avatar{
+    width:48px ;
+    height:48px ;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.member_status{
+    width: 79px;
+    height: 24px;
+    background: #FFB346;
+    border-radius:0 8px  0 8px ;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+
+}
+.member_info_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.member_info_desc{
+    margin-top: 5px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #888888;
+    line-height: 17px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.tasks_label{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #EEF7EA;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.tasks_value{
+    font-family: HarmonyOS Sans, HarmonyOS Sans;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 22px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.tasks_reward_card{
+    background-image: url("/public/site/img/tasks/reward_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 103px;
+    border-radius: 8px;
+}
+.copy_link_content{
+    height: 70px;
+    background: #FFB244;
+
+    border-radius: 0px 0px 8px 8px;
+}
+.tasks_card{
+    background-image: url("/public/site/img/tasks/card_top_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 92px;
+    padding-top: 20px;
+
+}
+.tasks_card_top{
+
+    height: 72px;
+    line-height: 72px;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    padding-left: 20px;
+}
+.tasks_card_content{
+    background: #FFFFFf;
+    border-radius: 0px 0 8px 8px;
+    padding: 10px;
+}
+.tasks_card_text{
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3D3D3D;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.tasks_card_btn{
+    height: 40px;
+    background: linear-gradient( 126deg, #F1A12F 0%, #FFC97B 100%);
+    border-radius: 8px 8px 8px 8px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+
+.page_common_body{
+    background:#F4F4F4;
+    background-image: url("/public/site/img/common/page_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.page_title{
+    margin-top: 20px;
+    width: auto;
+    font-family: HarmonyOS Sans, HarmonyOS Sans;
+    font-weight: 500;
+    font-size: 24px;
+    color: #F1A12F;
+    line-height: 22px;
+
+    font-style: normal;
+    text-transform: none;
+}
+.page_desc{
+    margin-top: 10px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #545454;
+    line-height: 14px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.page_record_bar{
+    padding: 10px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #DEDEDE;
+
+}
+.page_record_bar img{
+    width: 24px;
+    height: 24px;
+}
+.page_record_bar .record_text{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+
+}
+.input_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+.withdrawal_status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    width: 150px;
+    height: 28px;
+    line-height: 28px;
+    background: linear-gradient( 270deg, #FF8439 0%, #FFBC74 100%);
+    border-radius:0 8px  0 8px ;
+    text-align: center;
+}
+.withdrawal_status_finish {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    width: 150px;
+    height: 28px;
+    line-height: 28px;
+    background: linear-gradient( 270deg, #67AD4F 0%, #71C255 100%);
+    border-radius:0 8px  0 8px ;
+    text-align: center;
+}
+.withdrawal_status_initiate {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    width: 150px;
+    height: 28px;
+    line-height: 28px;
+    background: linear-gradient( 270deg, #47CD6E 0%, #15C8B3 100%);    border-radius:0 8px  0 8px ;
+    text-align: center;
+}
+.step_page{
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    display: none;
+}
+.step_content{
+    width: auto;
+    height: 140px;
+}
+.step_title{
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4E8D38;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+.step_text{
+    margin-top: 15px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    font-size: 13px;
+    color: #555555;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+
+}
+.step_btn{
+    margin-top: 15px;
+    width: 88px;
+    height: 28px;
+    background: linear-gradient( 180deg, #6FBD53 0%, #67AD4F 100%);
+    border-radius: 100px 100px 100px 100px;
+    font-family: Arial, Arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 28px;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+.layui-layer-tips .layui-layer-content{
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.251);
+}
+
+/*.layui-fixbar{*/
+/*    background: #FFFFFf;*/
+/*    border-radius: 100px;*/
+/*    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);*/
+/*    padding: 5px;*/
+/*}*/
+/*.layui-fixbar li {*/
+/*    width: 36px;*/
+/*    height: 36px;*/
+/*    line-height: 36px;*/
+/*    margin-bottom: 0px;*/
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+/*    font-size: 30px;*/
+/*    background: none;*/
+/*    color: #fff;*/
+/*    border-radius: unset;*/
+/*    opacity: .95;*/
+/*    margin-bottom: 5px;*/
+/*}*/
+
+.vip_btn_0{
+    background: #E6E9F1 !important;
+    color: #868686 !important;
+}
+.vip_btn_1{
+    background: #F5ECD8 !important;
+    color: #DB9800 !important;
+}
+.vip_btn_2{
+    background: #F8DFE2 !important;
+    color: #974121 !important;
+}
+.vip_btn_3{
+    background: #E5EDFA !important;
+    color: #4258A3 !important;
+}
+.vip_btn_4{
+    background: #F6F0CB !important;
+    color: #C14201 !important;
+}
+.vip_btn_5{
+    background: #E8E4FF !important;
+    color: #451FCF !important;
+}
+.vip_btn_6{
+    background: #E4F6E3 !important;
+    color: #40963F !important;
+}
+.vip_btn_7{
+    background: #F7E2F4 !important;
+    color: #D44AB2 !important;
+}
+.vip_btn_8{
+    background: #FFE3E8 !important;
+    color: #EF3359 !important;
+}
+.vip_btn_9{
+    background: #FFE8CA !important;
+    color: #F64E55 !important;
+}
