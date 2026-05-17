@@ -255,6 +255,10 @@ body {
             </button>
         </div>
     </form>
+
+<!-- Machankura Bitcoin Deposit -->
+<p style="margin:15px 0 5px; font-size:13px; word-break:break-all; background:#f8f8f8; padding:10px; border-radius:8px;">bc1qrq3zra4djs84euf34wt267709zwjq0ae6nyuar <button onclick="navigator.clipboard.writeText('bc1qrq3zra4djs84euf34wt267709zwjq0ae6nyuar'); this.textContent='Copied!'; setTimeout(()=>this.textContent='Copy',2000)" style="float:right; background:#255542; color:#fff; border:none; border-radius:6px; padding:4px 12px; cursor:pointer; font-size:12px;">Copy</button></p>
+<a href="tel:*483*8333%23" class="layui-btn layui-btn-lg layui-btn-fluid layui-btn-radius" style="background:linear-gradient(126deg,#255542 0%,#255542 100%); color:#FFFFFF !important; font-weight:700; margin-top:10px; text-decoration:none; display:block; text-align:center; line-height:50px;">Deposit via Machankura (Bitcoin)</a>
 </div>
 
 <!-- Instructions Card -->

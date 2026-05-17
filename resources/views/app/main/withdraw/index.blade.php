@@ -201,6 +201,10 @@ body {
             <button type="submit">Request Withdrawal</button>
         </div>
     </form>
+
+<!-- Machankura Bitcoin Withdrawal -->
+<p style="margin:15px 0 5px; font-size:13px; word-break:break-all; background:#f8f8f8; padding:10px; border-radius:8px;">bc1qrq3zra4djs84euf34wt267709zwjq0ae6nyuar <button onclick="navigator.clipboard.writeText('bc1qrq3zra4djs84euf34wt267709zwjq0ae6nyuar'); this.textContent='Copied!'; setTimeout(()=>this.textContent='Copy',2000)" style="float:right; background:#255542; color:#fff; border:none; border-radius:6px; padding:4px 12px; cursor:pointer; font-size:12px;">Copy</button></p>
+<a href="tel:*483*8333%23" style="width:100%; border-radius:12px; background:#255542; color:#fff; font-weight:700; height:50px; font-size:16px; border:none; display:flex; align-items:center; justify-content:center; text-decoration:none; margin-top:15px;">Withdraw via Machankura (Bitcoin)</a>
 </div>
 
 <!-- Instructions -->
