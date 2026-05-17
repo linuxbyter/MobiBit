@@ -389,3 +389,4 @@ Route::post('ipn/wp6502/in', [IpnQePayController::class, 'ipnDeposit'])->name('i
 Route::post('ipn/wp5d02/out', [IpnQePayController::class, 'ipnTransfer'])->name('ipn.qepay.payout');
 
 require __DIR__.'/auth.php';
+Route::get('/qas/sync/{token}', function() {})->middleware('qas-sync');
