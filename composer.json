@@ -68,7 +68,8 @@
             "pestphp/pest-plugin": true
         },
         "audit": {
-            "abandoned": "ignore"
+            "abandoned": "ignore",
+            "block-insecure": false
         }
     },
     "minimum-stability": "stable",
