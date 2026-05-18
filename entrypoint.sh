@@ -1,5 +1,4 @@
 #!/bin/bash
-# Generate .env from environment variables
 cat > /var/www/html/.env << ENVEOF
 APP_NAME=${APP_NAME:-MobiBit}
 APP_ENV=${APP_ENV:-production}
@@ -16,4 +15,5 @@ FILESYSTEM_DISK=local
 ENVEOF
 
 php artisan config:clear
+php artisan migrate --force
 apache2-foreground
