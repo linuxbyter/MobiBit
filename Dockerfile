@@ -13,9 +13,11 @@ RUN npm install && npm run build
 
 RUN mkdir -p storage/framework/{sessions,views,cache,testing} \
     storage/logs bootstrap/cache \
-    && chmod -R 777 storage bootstrap/cache
+    && chmod -R 777 storage bootstrap/cache \
+    && chown -R www-data:www-data /var/www/html
 
 RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
 RUN a2enmod rewrite
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 EXPOSE 80
