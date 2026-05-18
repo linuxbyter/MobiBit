@@ -15,5 +15,6 @@ FILESYSTEM_DISK=local
 ENVEOF
 
 php artisan config:clear
-php artisan migrate --force
+composer dump-autoload --no-scripts
+php artisan migrate --force || true
 apache2-foreground
